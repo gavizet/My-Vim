@@ -1,5 +1,5 @@
 if has("autocmd")
-    autocmd! bufwritepost .vimrc source ~/.vimrc
+	autocmd! bufwritepost .vimrc source ~/.vimrc
 endif
 execute pathogen#infect()
 colors matrix
@@ -18,4 +18,7 @@ set cursorline
 filetype plugin indent on
 set background=dark
 colorscheme gruvbox
+noremap <C-Z> :update<CR>
+vnoremap <C-Z> <C-C>:update<CR>
+inoremap <C-Z> <C-O>:update<CR>
 map <C-g> :NERDTreeToggle<CR>
