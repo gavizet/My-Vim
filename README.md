@@ -9,5 +9,5 @@ My personal 'vim' configuration and some helpul sites to customize it.
 * https://github.com/Raimondi/delimitMate
 * https://artisan.karma-lab.net/vim-plugins-indispensables
 * https://doc.ubuntu-fr.org/vim
-* https://github.com/vim-syntastic/syntastic
+* [Syntastic](https://github.com/vim-syntastic/syntastic) - Syntaxe Error Management
 
